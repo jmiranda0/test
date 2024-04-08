@@ -1,0 +1,73 @@
+
+.about-img {
+    position: relative;
+    margin-right: 4rem;
+    margin-left: 1.5rem;
+}
+.about-img::before {
+    position: absolute;
+    left: -1.27rem;
+    bottom: -1.25rem;
+    width: 96%;
+    height: 100%;
+    /* z-index: -1; */
+    content: '';
+    background: #9b9b9b;
+
+}
+.box-img {
+    position: relative;
+}
+.icon-bg {
+    position: absolute;
+    color: #9b9b9b;
+    bottom: 30px;
+    font-size: 60px;
+    right: 20px;
+    opacity: .1;
+}
+@media (max-width: 639.5px) { 
+    
+    /*========== Start About ==========*/
+    .section-title h3,
+    .section-title-left h3 {
+        font-size: 28px;
+    
+    }
+    .section-title h2,
+    .section-title-left h2 {
+        font-size: 18px;
+    }
+    .about-img{
+        margin-left: 0px;
+    } 
+    .about-img::before,
+    .box-img::after,
+    .box-img::before {
+        display: none;
+    }
+    .info-about h3 {
+        font-size: 24px;
+        letter-spacing: 0;
+    }   
+    .info-about {
+        padding-top: 0;
+    }
+    .info-about p {
+    
+    }
+    .follow-me .social-media-about li a {
+        width: 25px;
+        height: 25px;
+    }
+    .about-img {
+        margin-right: 0;  
+    }
+        .feat-meta {
+            margin-left: 0;
+        }
+    .scroll-up {
+        bottom: 90px;
+        right: 10px;
+    }
+    }

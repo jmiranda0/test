@@ -1,0 +1,81 @@
+
+/* mini */
+.gal-text {
+    color: var(--primary);
+    white-space: nowrap;
+    font-weight: 700;
+    line-height: 4.3rem;
+    position: relative;
+    transition: all .1 ease-in-out;
+  }
+  .gal-text::before {
+    background: var(--primary);
+    width: 21rem;
+    height: 0.1rem;
+    top: 3.33rem;
+    left: 20rem;
+    position: absolute;
+  }
+  .gal-text span {
+    color: #fff;
+    font-weight: 700;
+  }
+  @media (max-width: 575.98px) { 
+    
+       
+    .gal-text {
+        font-size: 1.25rem;
+        margin-bottom: 1.75rem;
+        line-height: 2.25rem;
+        padding-left: auto;
+        margin-left: auto;
+        
+    }
+    .hero-content::before {
+        
+        width: 13.1rem;
+        left: 6rem;
+    }
+    .hero-content span {
+        margin-top: 0.75rem; 
+     } 
+  
+     } 
+/* endMIni */
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.image {
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+  position: relative;
+}
+.image img {
+  width: 100%;
+  border-radius: 5px;
+}
+.add-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
